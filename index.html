@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <!-- Makes the layout scale correctly on phones, tablets, and desktops. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1020" />
+  <meta name="description" content="Raj Patel — B.Tech CSE student focused on AI, machine learning, computer vision, and full-stack development." />
+  <title>Raj Patel | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Sticky navigation keeps important sections easy to reach. -->
+  <header class="nav-wrap">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Raj Patel home"><span class="brand-mark">R</span><span>raj<span class="accent">.dev</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#specialization">Specialization</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact" class="nav-cta">Contact ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero: personal introduction, quick links, and portrait. -->
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> B.TECH STUDENT · CSE / AI & ML</div>
+        <h1>Hi, I'm <span class="gradient-text">Raj Patel.</span><br />I build ideas into <span class="gradient-text">real products.</span></h1>
+        <p class="hero-subtitle">Aspiring AI/ML and full-stack developer exploring intelligent systems, useful web apps, and accessible technology.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button secondary" href="https://github.com/162rajpatel-tech" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span>📍 India</span><span>💻 Learning by building</span><span>🤟 AI for accessibility</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="portrait-glow"></div>
+        <div class="portrait-frame">
+          <img src="assets/profile-black-shirt.png" alt="Portrait of Raj Patel" />
+        </div>
+        <div class="floating-card card-top"><span class="float-icon">✦</span><div><strong>Curious builder</strong><small>Always learning</small></div></div>
+        <div class="floating-card card-bottom"><span class="float-icon purple">⌘</span><div><strong>AI + Web</strong><small>My focus areas</small></div></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      </div>
+    </section>
+
+    <!-- Small proof points; no unverified numbers or fake achievements. -->
+    <section class="quick-stats container" aria-label="Portfolio highlights">
+      <div class="stat"><strong>AI / ML</strong><span>Core interest</span></div>
+      <div class="stat"><strong>Computer Vision</strong><span>Project focus</span></div>
+      <div class="stat"><strong>Full Stack</strong><span>Building skills</span></div>
+      <div class="stat"><strong>Open Source</strong><span>Explore on GitHub</span></div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><span class="section-kicker">01 / ABOUT ME</span><h2>Technology with a <span class="gradient-text">purpose.</span></h2><p>I’m a B.Tech student interested in building practical software and learning how intelligent systems can solve real problems.</p></div>
+      <div class="about-grid">
+        <article class="about-card glass">
+          <div class="about-icon">⌘</div><h3>How I think</h3><p>I enjoy breaking problems into smaller pieces, experimenting with ideas, and improving solutions through iteration.</p>
+        </article>
+        <article class="about-card glass">
+          <div class="about-icon">✳</div><h3>What I’m exploring</h3><p>AI-powered applications, computer vision, accessible technology, and reliable web experiences.</p>
+        </article>
+        <article class="about-card glass">
+          <div class="about-icon">↗</div><h3>What I’m aiming for</h3><p>To grow as an engineer by building projects, collaborating with others, and strengthening my fundamentals.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="specialization">
+      <div class="section-heading"><span class="section-kicker">02 / SPECIALIZATION</span><h2>Areas I’m <span class="gradient-text">focused on.</span></h2><p>A mix of intelligent systems and the software needed to turn them into useful products.</p></div>
+      <div class="specialty-grid">
+        <article class="specialty glass"><div class="specialty-top"><span class="specialty-icon">✧</span><span class="specialty-number">01</span></div><h3>Artificial Intelligence & ML</h3><p>Learning model workflows, prediction systems, and practical machine-learning applications.</p><div class="tag-row"><span>Python</span><span>ML fundamentals</span><span>Model evaluation</span></div></article>
+        <article class="specialty glass"><div class="specialty-top"><span class="specialty-icon">◎</span><span class="specialty-number">02</span></div><h3>Computer Vision</h3><p>Exploring how computers interpret images, hand gestures, and visual information.</p><div class="tag-row"><span>Image processing</span><span>OpenCV*</span><span>Vision models</span></div></article>
+        <article class="specialty glass"><div class="specialty-top"><span class="specialty-icon">⌘</span><span class="specialty-number">03</span></div><h3>Full-Stack Development</h3><p>Building responsive user experiences and learning how frontend, APIs, and data fit together.</p><div class="tag-row"><span>HTML / CSS</span><span>JavaScript*</span><span>APIs*</span></div></article>
+      </div>
+      <p class="fine-print">*Keep a technology tag only if you have used it in your project or can discuss it confidently in an interview.</p>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading project-heading"><div><span class="section-kicker">03 / SELECTED WORK</span><h2>Projects that make ideas <span class="gradient-text">real.</span></h2><p>One project from my GitHub is featured here. Add live demos and screenshots as they become available.</p></div><a class="text-link" href="https://github.com/162rajpatel-tech?tab=repositories" target="_blank" rel="noreferrer">All repositories ↗</a></div>
+      <article class="project-card featured-project">
+        <div class="project-art sign-art" aria-label="Abstract sign-language project illustration">
+          <div class="art-grid"></div><div class="hand-symbol">🤟</div><div class="speech-bubble bubble-one">HELLO</div><div class="speech-bubble bubble-two">AI → TEXT</div><div class="art-caption">ACCESSIBLE TECHNOLOGY</div>
+        </div>
+        <div class="project-content">
+          <div class="project-label"><span class="status-dot"></span> FEATURED PROJECT</div>
+          <h3>AI-Based Sign Language Learning Platform</h3>
+          <p>A project focused on sign-language learning and accessibility. Explore the repository for the current implementation, documentation, and confirmed technologies.</p>
+          <div class="tag-row"><span>AI / ML</span><span>Sign Language</span><span>Accessibility</span></div>
+          <div class="project-actions"><a class="button primary small" href="https://github.com/162rajpatel-tech/ai-based-sign-language-learning-plateform-" target="_blank" rel="noreferrer">View repository ↗</a><a class="text-link" href="https://github.com/162rajpatel-tech" target="_blank" rel="noreferrer">GitHub profile ↗</a></div>
+        </div>
+      </article>
+      <div class="project-note"><span>＋</span><div><strong>Room for your next project</strong><p>Add another project card when you have a repository, a short explanation, and a demo or screenshot ready.</p></div></div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading"><span class="section-kicker">04 / TECH TOOLKIT</span><h2>Skills I’m <span class="gradient-text">developing.</span></h2><p>Use this section as a living snapshot. Update it to match your actual experience.</p></div>
+      <div class="skills-layout">
+        <div class="skill-panel glass"><h3>Programming languages</h3><div class="skill-list"><span class="skill-chip"><b>Py</b> Python</span><span class="skill-chip"><b>JS</b> JavaScript</span><span class="skill-chip"><b>C</b> C / C++</span><span class="skill-chip"><b>SQL</b> SQL</span></div><p class="fine-print">Edit this list to include only languages you can use and explain.</p></div>
+        <div class="skill-panel glass"><h3>Tools & concepts</h3><div class="skill-list"><span class="skill-chip"><b>GH</b> Git & GitHub</span><span class="skill-chip"><b>AI</b> Machine Learning</span><span class="skill-chip"><b>CV</b> Computer Vision</span><span class="skill-chip"><b>WEB</b> Responsive UI</span><span class="skill-chip"><b>API</b> API fundamentals</span></div><p class="fine-print">Replace concepts with frameworks and tools you have actually used.</p></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner"><span class="section-kicker">05 / LET’S CONNECT</span><h2>Have an idea? Let’s <span class="gradient-text">build something.</span></h2><p>I’m open to connecting with fellow developers, learning from the community, and exploring project opportunities.</p><div class="hero-actions centered"><a class="button primary" href="https://github.com/162rajpatel-tech" target="_blank" rel="noreferrer">Connect on GitHub ↗</a><button class="button secondary" id="copyProfile">Copy GitHub URL</button></div><p class="copy-status" id="copyStatus" aria-live="polite"></p></div>
+    </section>
+  </main>
+
+  <footer class="footer container"><a class="brand" href="#home"><span class="brand-mark">R</span><span>raj<span class="accent">.dev</span></span></a><p>Designed with curiosity. Built one step at a time.</p><span>© <span id="year"></span> Raj Patel</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
